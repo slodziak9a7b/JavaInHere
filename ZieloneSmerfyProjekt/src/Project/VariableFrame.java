@@ -234,7 +234,11 @@ public class VariableFrame extends JFrame {
 	}
 	
 	public void compute() {
-		
+		//TODO
+		//muszę pozbyć się tej metody...
+		// trzeba zrobic nowa klase która będzie obliczała wartosci pol varaible frame i punkty wykresu graph
+		// do tego potrzebne są metody dostepu variableFrame i graphPanel, na nich operując wykonam operacje poniżej
+		// metoda odsiwerznia bedzie podczepiona pod listenery animacji, load buttony, listenery graphu :)
 		double q = 1.6021765*Math.pow(10,-19);
 		double cv = 299792458.0;
 		double m = 9.109382*Math.pow(10,-31);
